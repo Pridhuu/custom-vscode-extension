@@ -1,0 +1,19 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+webview-ui/dist/
+
+# VS Code test environment
+.vscode-test/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

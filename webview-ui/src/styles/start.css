@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/Righteous-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.advayam-heading {
+    font-family: "Righteous", sans-serif;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.create-open-button {
+    height: 48px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    border: #ececec solid 1px;
+    border-radius: 48px;
+    color: #ececec;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logo-holder {
+    width: 240px;
+    height: 240px;
+}
