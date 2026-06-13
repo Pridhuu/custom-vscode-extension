@@ -23,6 +23,10 @@ function activate(context) {
 				}
 			);
 
+			panel.iconPath = vscode.Uri.file(
+				path.join(context.extensionPath, "assets", "advayam-icon.svg")
+			);
+
 			panel.webview.html = getWebContent(panel.webview, context);
 
 			panel.webview.onDidReceiveMessage(
