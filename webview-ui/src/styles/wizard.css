@@ -97,3 +97,8 @@
     color: #202020;
     cursor: pointer;
 }
+
+.wizard-logo-holder {
+    width: 120px;
+    height: 120px;
+}

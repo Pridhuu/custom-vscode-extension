@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import vscode from "../vscode";
 import folderIcon from "../assets/folder-icon.svg"
 import "../styles/wizard.css"
+import Logo from "../assets/advayam-icon.svg"
 
 function ProjectWizard({setCurrentPage}) {
     const [projectName, setName] = useState("");
@@ -46,6 +47,9 @@ function ProjectWizard({setCurrentPage}) {
 
     return <>
         <div className="second-container">
+            <div className="wizard-logo-holder">
+                <img src={Logo} alt="" width="fill" height="fill"/>
+            </div>
             <h1 className="advayam-heading">PROJECT WIZARD</h1>
             <div className="input-container">
                 <input type="text"
